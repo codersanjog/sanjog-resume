@@ -1,0 +1,44 @@
+*{
+    background-color: #F5E8C7;
+}
+
+header{
+    padding: 15px 0;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #363062;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+.nav-menu{
+    margin-left: auto;
+    margin-right: 10px;
+    color: #363062;
+    font-family: sans-serif;
+}
+
+.nav-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-menu li {
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.nav-menu li:hover {
+    text-decoration: underline;
+}
