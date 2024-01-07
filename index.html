@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sanjog Prasad - Beginner Web Developer</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <header>
         <nav class="menu">
@@ -14,14 +16,28 @@
             </div>
             <div class="nav-menu">
                 <ul>
-                    <li><a>Home</a></li>
-                    <li><a>About Me</a></li>
-                    <li><a>Skills I Know</a></li>
-                    <li><a>Experience</a></li>
-                    <li><a>Contact Me</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills I Know</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
     </header>
+    <section id="#home">
+        <h1>Hi! I am Sanjog Prasad</h1>
+        <h2>And I am<span class="auto-type"></span></h2>
+    </section>
+
+    <script>
+        var typed = new Typed(".auto-type", {
+            String: ["Coder", "Designer", "Entrepreneur"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        })
+    </script>
 </body>
+
 </html>

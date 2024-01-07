@@ -25,6 +25,8 @@ header{
     margin-right: 10px;
     color: #363062;
     font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .nav-menu ul {
@@ -41,4 +43,11 @@ header{
 
 .nav-menu li:hover {
     text-decoration: underline;
+    color: #435585;
+}
+
+.nav-menu li a{
+    text-decoration: none;
+    color: #363062;
+    cursor: pointer;
 }
